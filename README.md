@@ -10,9 +10,9 @@ However, whilst raw data is widely available (e.g. on https://www.treasury.gov/r
 ## Tool Functionality
 1) User decides the start and end dates for the period that they are interested in.
 2) User decides how many graphs they want in the period (inclusive of the start date and a date which is approximately the same as the end date). The tool then calculates the dates for which individual yield curves will be plotted.
-3) *Alternatively, the user can just specify the dates that they want plots of the yield curve for.*
-4) The tool calculates the summary statistics (mean, standard deviation, coefficient of variation, minimum value, maximum value and 'current' value at the end of the date range) for US Treasuries (or T-bills) of each maturity.
-5) The tool generates a dashboard consisting of a plot of the yield curve at each given date (with an accompanying legend) and followed by a table of all the summary statistics.
+3) *Alternatively, the user can just specify dates for which they want plots of the yield curve.*
+4) The tool calculates the summary statistics (mean, standard deviation, coefficient of variation, minimum value, maximum value and 'current' value at the end of the date range) for US T-bills and Treasuries of the differing maturities.
+5) The tool generates a dashboard consisting of a plot of the yield curve at each given date (with an accompanying legend) followed by a table of all the summary statistics.
 
 ## Program
 

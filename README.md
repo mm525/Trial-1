@@ -16,3 +16,14 @@ However, whilst raw data is widely available (e.g. on https://www.treasury.gov/r
 
 ## Program
 
+
+
+
+## Tips for Using The Tool
+
+
+## Ideas for Further Development
+1) Make it so that the user can input the start date, end date and number of graphs on the frontend rather than the backend of the tool.
+2) Make the user input process error free such that it only accepts: dates for which there is data (e.g. it would not accept weekend dates since there is no data available for weekends) and a number of graphs <= size of the date interval.
+3) Harder: create another dashboard section consisting of an animation of the yield curve over the _entire_ period.
+4) Much harder: program a theoretical model of the yield curve to contrast with the actual yield curve for different dates - also include some summary statistics (e.g. difference between theoretical and actual yield for bonds of all the different maturities).

@@ -31,8 +31,8 @@ def generate_summaries(maturities, YC):
                '%.2f'%round(YC[maturity][start:end].min(), 3), '%.2f'%round(YC[maturity][start:end].max(), 3), 
                '%.2f'%round(np.array(YC[maturity])[end], 3)]
 
-s1M, s2M, s3M, s6M, s1Y, s2Y, s3Y, s5Y, S7Y, s10Y, s20Y, s30Y = generate_summaries(maturities, YC)
-summary_table = pd.DataFrame([s1M, s2M, s3M, s6M, s1Y, s2Y, s3Y, s5Y, S7Y, s10Y, s20Y, s30Y], 
+s1M, s2M, s3M, s6M, s1Y, s2Y, s3Y, s5Y, s7Y, s10Y, s20Y, s30Y = generate_summaries(maturities, YC)
+summary_table = pd.DataFrame([s1M, s2M, s3M, s6M, s1Y, s2Y, s3Y, s5Y, s7Y, s10Y, s20Y, s30Y], 
                              columns = ['Maturity', 'Mean', 'Std Dev', 'CV', 'Min', 'Max', 'Current'])
 
 app = dash.Dash()

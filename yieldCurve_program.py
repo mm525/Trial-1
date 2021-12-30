@@ -61,6 +61,7 @@ summary_table = pd.DataFrame([s1M, s2M, s3M, s6M, s1Y, s2Y, s3Y, s5Y, s7Y, s10Y,
                              columns = ['Maturity', 'Mean', 'Std Dev', 'CV', 'Min', 'Max', 'Current'])
 
                                             # DASHBOARD #
+  
 # Create Dashboard
 app = dash.Dash()
 

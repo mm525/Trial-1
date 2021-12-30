@@ -1,3 +1,5 @@
+                                                  # PROGRAM SETUP #
+
 import numpy as np
 import pandas as pd
 import dash
@@ -6,9 +8,7 @@ from sklearn.decomposition import PCA
 import plotly.graph_objs as go
 from dash import html
 from dash import dcc
-from dash import dash_table as dt
-
-                                            # PROGRAM SETUP #
+from dash import dash_table as dt                                       
   
 # Read data into a DataFrame
 YC = pd.read_excel(r'/Users/marcusmayfield/Documents/US_Yield_Curve.xlsx')
@@ -71,6 +71,7 @@ traces = [go.Scatter(x = maturities, y = YCnp[date], mode = 'lines', name = str(
           for date in dates]
 layout = go.Layout(title = 'Daily Treasury Par Yield Curve', xaxis = {'title': 'Maturity'}, 
                    yaxis = {'title': 'Yield (%)'}, yaxis_range = [0, 2.5])
+
 fig = go.Figure(data = traces, layout = layout)
 
 # Graphs for Principal Components Analysis (PCA)

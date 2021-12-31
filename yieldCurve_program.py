@@ -27,7 +27,7 @@ dates = [start]
 for i in range(graphs - 1):
     dates.append(dates[i] + step)
     
-# Drop the 'Date' column from YC, then gain the remaining column names (i.e. maturities) from YC
+# Drop the 'Date' column from YC, then assign the remaining column names (i.e. all the maturities) to a new variable
 YC_nd = YC.drop(columns = 'Date', index = 1) # YC with "No Dates" (hence the *nd*)
 maturities = list(YC_nd.columns.values)
 

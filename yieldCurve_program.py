@@ -19,7 +19,7 @@ graphs = int(input("Please enter the number of yield curves you want in your giv
 
 # Convert the start and end dates from str into int datatype
 start = YC.loc[YC['Date'] == start_inp].index.item()
-end = YC.loc[YC['Date'] == end_inp].index.item() + 1
+end = YC.loc[YC['Date'] == end_inp].index.item()
 
 # Calculate the list of dates for which the yield curves will be plotted
 step = math.floor((end - start)/(graphs - 1))

@@ -1,14 +1,14 @@
 # US Yield Curve Dashboard
 
 ## Motivations
-AAAAA
+Economics degrees are incredibly theoretical, with the associated homework assignments often lacking real world applicability. Since macroeconomics and econometrics are my two favourite parts of my economics degree, I wanted to create something that would combine both subjects. Moreover, given my interest in financial markets, I decided that the macroeconomics component should have a financial macroeconomics lean.
+
+Since a clear financial macroeconomics application is interest rates (trading), so I decided to go for that. A common econometric technique used to analyse interest rates (more specifically, the yield curve) is Principal Components Analysis (PCA), which effectively decomposes the covariance (multidimensional spread) into the orthogonal (single-dimensional) factors that explain historical returns for zero-coupon US T-bills and USTs.
+
+
 
 ## Tool Functionality
-1) User decides the start and end dates for the period that they are interested in.
-2) User decides how many graphs they want in the period (inclusive of the start date and a date which is approximately the same as the end date). The tool then calculates the dates for which individual yield curves will be plotted.
-3) *Alternatively, the user can just specify the dates that they want plots of the yield curve for.*
-4) The tool calculates the summary statistics (mean, standard deviation, coefficient of variation, minimum value, maximum value and 'current' value at the end of the date range) for US Treasuries (or T-bills) of each maturity.
-5) The tool generates a dashboard consisting of a plot of the yield curve at each given date (with an accompanying legend) and followed by a table of all the summary statistics.
+1) User inputs the start date for the date range.
 
 ## Program
 

@@ -1,9 +1,9 @@
 # US Yield Curve Dashboard
 
 ## Motivations
-Economics degrees are incredibly theoretical, with the associated homework assignments often lacking real world applicability. Since macroeconomics and econometrics are my two favourite parts of my economics degree, I wanted to create something that would combine both subjects. Moreover, given my interest in financial markets, I decided that the macroeconomics component should have a financial macroeconomics lean.
+Economics degrees are incredibly theoretical. This means that the associated homework assignments often lack real world applicability. Since macroeconomics and econometrics are my two favourite parts of my degree, I wanted to create something that would combine both subjects. Moreover, given my interest in financial markets, I decided that the macroeconomics component should have a financial macroeconomics lean.
 
-Since a clear financial macroeconomics application is interest rates (trading), so I decided to go for that. A common econometric technique used to analyse interest rates (more specifically, the yield curve) is Principal Components Analysis (PCA), which effectively decomposes the covariance (multidimensional spread) into the orthogonal (single-dimensional) factors that explain historical returns for zero-coupon US T-bills and USTs.
+One such financial macroeconomics application is interest rates (trading). A common econometric technique used to analyse interest rates (more specifically, the yield curve) is Principal Components Analysis (PCA), which effectively decomposes the covariance (i.e. a multidimensional spread) into the orthogonal (single-dimensional) factors that explain the historical returns for zero-coupon US T-bills and USTs. Moreover, since the analysis revolves around the yield curve, 
 
 
 

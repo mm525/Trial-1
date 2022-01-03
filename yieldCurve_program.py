@@ -51,7 +51,7 @@ curvature = pca_level.components_[2]
 
                                         # SUMMARY STATISTICS #
 
-# Function to generate the summary statistics for each maturity
+# Function for generating the summary statistics for a given maturity
 def generate_summaries(maturities, YC):
     for maturity in maturities:
         yield [maturity, '%.3f'%round(YC[maturity][start:end].mean(), 4),                               # Mean

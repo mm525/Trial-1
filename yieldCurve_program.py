@@ -54,11 +54,12 @@ curvature = pca_level.components_[2]
 # Function to generate the summary statistics for each maturity
 def generate_summaries(maturities, YC):
     for maturity in maturities:
-        yield [maturity, '%.3f'%round(YC[maturity][start:end].mean(), 4),
-               '%.3f'%round(YC[maturity][start:end].std(), 4),
-               '%.1f'%round((YC[maturity][start:end].std()/(YC[maturity][start:end].mean()))*100, 2),
-               '%.2f'%round(YC[maturity][start:end].min(), 3), '%.2f'%round(YC[maturity][start:end].max(), 3),
-               '%.2f'%round(np.array(YC[maturity])[end], 3)]
+        yield [maturity, '%.3f'%round(YC[maturity][start:end].mean(), 4),                               # Mean
+               '%.3f'%round(YC[maturity][start:end].std(), 4),                                          # Standard Deviation
+               '%.1f'%round((YC[maturity][start:end].std()/(YC[maturity][start:end].mean()))*100, 2),   # Coefficient of Variation (CV)
+               '%.2f'%round(YC[maturity][start:end].min(), 3),                                          # Minimum Value
+               '%.2f'%round(YC[maturity][start:end].max(), 3),                                          # Maximum Value
+               '%.2f'%round(np.array(YC[maturity])[end], 3)]                                            # (Current) Value at End of Date Range
 
 # Generate summary statistics for the bond of each maturity
 s1M, s2M, s3M, s6M, s1Y, s2Y, s3Y, s5Y, s7Y, s10Y, s20Y, s30Y = generate_summaries(maturities, YC)

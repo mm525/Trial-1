@@ -21,6 +21,8 @@ In an attempt to make this as user friendly as possible, I decided to teach myse
 7) The tool creates graphs for the yield curve plot and the three main factors of the PCA.
 8) The tool combines all of the above into a dashboard summary. 
 
+Note: I tried to use Investing.com's API to get the yield curve data (as this beats manually updating an excel spreadsheet), but it seems I was banned due to issuing too many requests when I was trying it out.
+
 ## Example Dashboard
 Here the user has decided:
 - Start date: 2021-03-19

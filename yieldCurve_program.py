@@ -34,7 +34,7 @@ maturities = list(YC_nd.columns.values)
 # Convert YC without 'Date' into a numpy array
 YCnp = YC_nd.to_numpy()
 
-                                    # PRINCIPAL COMPONENTS ANALYSIS # 
+                                    # PRINCIPAL COMPONENT ANALYSIS # 
 
 # Decompose the covariance into its (orthogonal) principal components
 pca_level = PCA().fit(YC_nd[start:end])    

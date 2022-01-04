@@ -107,7 +107,7 @@ app.layout = html.Div(children = [
               dcc.Graph(id = 'yield-curve', figure = fig)]),
     
     # Dashboard section for PCA
-    html.Div([html.H2('Principal Components Analysis (PCA)', style = {'font-family': 'sans-serif',
+    html.Div([html.H2('Principal Component Analysis (PCA)', style = {'font-family': 'sans-serif',
                                                                      'textAlign': 'center',}),
               html.Div([
                   dcc.Graph(id = 'PCA1', figure = fig_level, style = {'display': 'inline-block'}),

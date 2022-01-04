@@ -1,4 +1,4 @@
-# US Yield Curve Dashboard
+# US Rates Dashboard
 
 ## Motivations
 Economics degrees are incredibly theoretical. This means that the associated homework assignments often lack real world applicability. Since macroeconomics and econometrics are (in my opinion) the two most interesting parts of an economics degree, I wanted to create something that would combine both subjects. Moreover, given my interest in financial markets, I decided that the macroeconomics component should have a financial macroeconomics lean.

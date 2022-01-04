@@ -32,7 +32,7 @@ Here the user has decided:
 And the accompanying output (zoom in for a clearer image): 
 
 ![Screenshot 2022-01-04 at 11 44 29](https://user-images.githubusercontent.com/64070251/148054262-4de158d4-0704-440c-b572-edc595a4e7a2.png)
-![Screenshot 2022-01-04 at 11 45 20](https://user-images.githubusercontent.com/64070251/148054334-6bb33280-3a16-417a-8b2a-194c9f4483f4.png)
+![Screenshot 2022-01-04 at 14 39 29](https://user-images.githubusercontent.com/64070251/148075601-5de088df-ff4c-45ae-b5fd-48153e7bd975.png)
 ![Screenshot 2022-01-04 at 11 47 56](https://user-images.githubusercontent.com/64070251/148054623-b87732c3-f105-4105-b36d-28427bb53598.png)
 
 ## Tips for Using The Tool
@@ -40,6 +40,7 @@ And the accompanying output (zoom in for a clearer image):
 2) Deselect graphs in the yield curve plot to help build an understanding of how the yield curve has evolved over time. In this example the user has deselected the 2nd, 3rd and 5th graphs:
 ![Screenshot 2022-01-04 at 11 54 36](https://user-images.githubusercontent.com/64070251/148055412-95a53a2e-a516-4ac8-a0cb-31d83de59d5e.png)
 3) Zoom in around the short end of the yield curve.
+![Screenshot 2022-01-04 at 14 42 55](https://user-images.githubusercontent.com/64070251/148076027-ef9f3f54-b8b1-486d-af7d-0586ea4eb701.png)
 
 ## Ideas for Further Development
 1) Make it so that the user can input the date range via the dashboard rather than in Jupyter notebook.

@@ -34,7 +34,7 @@ And the accompanying output (zoom in for a clearer image):
 ![Screenshot 2022-01-04 at 11 47 56](https://user-images.githubusercontent.com/64070251/148054623-b87732c3-f105-4105-b36d-28427bb53598.png)
 
 ## Tips for Using The Tool
-1) Input data in the correct format, make sure to only enter weekday (Mon - Fri) dates for the dates and a number of graphs <= interval length (I have not yet implemented Try Except into the inputs).
+1) Input data in the correct format, make sure to only enter weekday (Mon - Fri) dates and input a number of graphs that is <= the length of the date range (I have not yet implemented Try Except into the inputs).
 2) Deselect graphs in the yield curve plot to help build an understanding of how the yield curve has evolved over time. In this example the user has deselected the 2nd, 3rd and 5th graphs:
 ![Screenshot 2022-01-04 at 11 54 36](https://user-images.githubusercontent.com/64070251/148055412-95a53a2e-a516-4ac8-a0cb-31d83de59d5e.png)
 3) Zoom in around the short end of the yield curve.

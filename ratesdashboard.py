@@ -101,7 +101,7 @@ app.layout = html.Div(children = [
                                                                     'font-family': 'sans-serif'})
              ]),
     
-    # Dashboard section for YC evolution over the inputted timeframe
+    # Dashboard section for YC evolution over time
     html.Div([html.H2('US Yield Curve Evolution Over Time', style = {'font-family': 'sans-serif',
                                                                     'textAlign': 'center',}),
               dcc.Graph(id = 'yield-curve', figure = fig)]),

@@ -10,7 +10,7 @@ from dash import dash_table as dt
 
                                             # PROGRAM SETUP #
 # Read data into a DataFrame
-YC = pd.read_excel(r'/Users/marcusmayfield/Documents/US_Yield_Curve.xlsx')
+YC = pd.read_excel(r'[file_name].xlsx')
 
 # Ask user for inputs
 start_inp = input("Please enter the start date in 'YYYY-MM-DD' format: ")

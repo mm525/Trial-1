@@ -39,7 +39,7 @@ And the accompanying output (zoom in for a clearer image):
 1) Input data in the correct format, make sure to only enter weekday (Mon - Fri) dates and input a number of graphs that is <= the length of the date range (I have not yet implemented Try Except into the inputs).
 2) Deselect graphs in the yield curve plot to help build an understanding of how the yield curve has evolved over time. In this example the user has deselected the 2nd, 3rd and 5th graphs:
 ![Screenshot 2022-01-04 at 11 54 36](https://user-images.githubusercontent.com/64070251/148055412-95a53a2e-a516-4ac8-a0cb-31d83de59d5e.png)
-3) Zoom in around the short end of the yield curve.
+3) Zoom in around the short end of the yield curve:
 ![Screenshot 2022-01-04 at 14 42 55](https://user-images.githubusercontent.com/64070251/148076027-ef9f3f54-b8b1-486d-af7d-0586ea4eb701.png)
 
 ## Ideas for Further Development

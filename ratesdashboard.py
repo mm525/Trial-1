@@ -17,7 +17,7 @@ start_inp = input("Please enter the start date in 'YYYY-MM-DD' format: ")
 end_inp = input("Please enter the end date in 'YYYY-MM-DD' format: ")
 graphs = int(input("Please enter the number of yield curves you want in your given interval: "))
 
-# Convert the start and end dates into their integer position in the entire date range
+# Convert the start and end dates into their respective index position
 start = YC.loc[YC['Date'] == start_inp].index.item()
 end = YC.loc[YC['Date'] == end_inp].index.item()
 
